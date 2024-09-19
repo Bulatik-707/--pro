@@ -1,0 +1,52 @@
+body{
+min-width: 320px;
+font-size: 16px;
+font-family: 'Times New Roman', serif;
+color: black;
+}
+
+img{
+    width: 200px;
+    max-height: 150px;
+    
+}
+
+header .navbar-light{ 
+    background-color:dodgerblue;
+}
+header .navbar-brand{
+    font-size: 24px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+header .nav-item{
+margin-left: 20px;
+text-transform: uppercase;
+}
+
+
+.com {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .com::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .com img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .com span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
